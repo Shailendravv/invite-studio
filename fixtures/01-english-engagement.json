@@ -1,0 +1,47 @@
+{
+  "name": "01-english-engagement",
+  "description": "Clean English engagement message",
+  "today": "2026-10-03",
+  "raw": "Hi! We want an engagement invite for Rahul & Priya. Date: 15 Nov 2026, 7 PM onwards at Hotel Raj Palace, MI Road, Jaipur. RSVP: Sharma family 98290 12345",
+  "expect": {
+    "status": "ready",
+    "eventType": "engagement",
+    "fields": {
+      "groomName": "Rahul",
+      "brideName": "Priya",
+      "date": "2026-11-15",
+      "time": "7:00 PM",
+      "venueName": "Raj Palace",
+      "language": "en"
+    }
+  },
+  "mockDraft": {
+    "eventType": "engagement",
+    "language": "en",
+    "languageStyle": "english",
+    "personName": null,
+    "age": null,
+    "hostedBy": null,
+    "brideName": "Priya",
+    "groomName": "Rahul",
+    "brideFamily": null,
+    "groomFamily": null,
+    "date": "2026-11-15",
+    "displayDate": "Sunday, 15 November 2026",
+    "time": "7:00 PM",
+    "venueName": "Hotel Raj Palace",
+    "venueAddress": "MI Road, Jaipur",
+    "rsvp": "Sharma family 98290 12345",
+    "blessingLine": null,
+    "functions": [],
+    "palette": null,
+    "wording": {
+      "headline": "Engagement Ceremony",
+      "invitation": "Together with our families, we invite you to bless the couple as they begin a new journey.",
+      "closing": "Your presence is our blessing."
+    },
+    "wordingHi": null,
+    "missingFields": [],
+    "clientQuestion": null
+  }
+}

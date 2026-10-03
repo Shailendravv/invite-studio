@@ -1,0 +1,46 @@
+{
+  "name": "03-hinglish-birthday",
+  "description": "Hinglish birthday with relative date (agle ravivar) and age",
+  "today": "2026-10-03",
+  "raw": "bhaiya mere bete aarav ka 5th birthday hai agle ravivar ko, shaam 6 baje, Fun Zone party hall sector 15 me. cartoon type bana dena 🎈🎂",
+  "expect": {
+    "status": "ready",
+    "eventType": "birthday",
+    "fields": {
+      "personName": "Aarav",
+      "age": 5,
+      "date": "2026-10-11",
+      "time": "6:00 PM",
+      "venueName": "Fun Zone"
+    }
+  },
+  "mockDraft": {
+    "eventType": "birthday",
+    "language": "en",
+    "languageStyle": "hinglish",
+    "personName": "Aarav",
+    "age": 5,
+    "hostedBy": null,
+    "brideName": null,
+    "groomName": null,
+    "brideFamily": null,
+    "groomFamily": null,
+    "date": "2026-10-11",
+    "displayDate": "Sunday, 11 October 2026",
+    "time": "6:00 PM",
+    "venueName": "Fun Zone Party Hall",
+    "venueAddress": "Sector 15",
+    "rsvp": null,
+    "blessingLine": null,
+    "functions": [],
+    "palette": null,
+    "wording": {
+      "headline": "5th Birthday Bash",
+      "invitation": "Join us for cake, games and a whole lot of fun!",
+      "closing": "See you there!"
+    },
+    "wordingHi": null,
+    "missingFields": [],
+    "clientQuestion": null
+  }
+}

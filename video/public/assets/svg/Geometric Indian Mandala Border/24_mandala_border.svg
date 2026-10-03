@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 120" width="100%" height="100%">
+  <defs>
+    <!-- One repeating seamless architectural abstract sunburst tile cell unit -->
+    <g id="mandala_tile_unit" fill="none" stroke="#5A1818" stroke-width="1.5">
+      <!-- Center Concentric Dial Hub -->
+      <circle cx="75" cy="60" r="35" fill="#5A1818" fill-opacity="0.05"/>
+      <circle cx="75" cy="60" r="22"/>
+      <circle cx="75" cy="60" r="10" fill="#5A1818"/>
+      <!-- Sharp Triangular Sun Rays/Spoke Teeth Points -->
+      <path d="M 75,20 L 80,25 L 70,25 Z" fill="#5A1818"/>
+      <path d="M 75,100 L 80,95 L 70,95 Z" fill="#5A1818"/>
+      <path d="M 35,60 L 40,55 L 40,65 Z" fill="#5A1818"/>
+      <path d="M 115,60 L 110,55 L 110,65 Z" fill="#5A1818"/>
+      <!-- Interlocking Diamond Boundary Frame Lines -->
+      <path d="M 0,60 L 75,5 L 150,60 L 75,115 Z" stroke-width="1" stroke-dasharray="3 3"/>
+    </g>
+  </defs>
+  <!-- Framing Guardrails Horizon Rails System -->
+  <g id="mandala_border_assembly">
+    <line x1="0" y1="5" x2="800" y2="5" stroke="#5A1818" stroke-width="3.5"/>
+    <line x1="0" y1="115" x2="800" y2="115" stroke="#5A1818" stroke-width="3.5"/>
+    <!-- Tiled Array Blocks Horizontal Grid Chain -->
+    <use href="#mandala_tile_unit" x="25" y="0"/>
+    <use href="#mandala_tile_unit" x="175" y="0"/>
+    <use href="#mandala_tile_unit" x="325" y="0"/>
+    <use href="#mandala_tile_unit" x="475" y="0"/>
+    <use href="#mandala_tile_unit" x="625" y="0"/>
+  </g>
+</svg>

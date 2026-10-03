@@ -1,0 +1,46 @@
+{
+  "name": "09-emojis",
+  "description": "Emoji-heavy birthday with DD/MM/YYYY date",
+  "today": "2026-10-03",
+  "raw": "🎉🎂 Birthday bash 🎈 for Myra 🥳 turning 1️⃣ ✨\n📅 18/10/2026\n⏰ 4 PM\n📍 Little Feet Play Cafe, Baner, Pune 💕",
+  "expect": {
+    "status": "ready",
+    "eventType": "birthday",
+    "fields": {
+      "personName": "Myra",
+      "age": 1,
+      "date": "2026-10-18",
+      "time": "4:00 PM",
+      "venueName": "Little Feet"
+    }
+  },
+  "mockDraft": {
+    "eventType": "birthday",
+    "language": "en",
+    "languageStyle": "english",
+    "personName": "Myra",
+    "age": 1,
+    "hostedBy": null,
+    "brideName": null,
+    "groomName": null,
+    "brideFamily": null,
+    "groomFamily": null,
+    "date": "2026-10-18",
+    "displayDate": "Sunday, 18 October 2026",
+    "time": "4:00 PM",
+    "venueName": "Little Feet Play Cafe",
+    "venueAddress": "Baner, Pune",
+    "rsvp": null,
+    "blessingLine": null,
+    "functions": [],
+    "palette": null,
+    "wording": {
+      "headline": "1st Birthday Bash",
+      "invitation": "Join us as our little star turns one!",
+      "closing": "Can't wait to celebrate with you!"
+    },
+    "wordingHi": null,
+    "missingFields": [],
+    "clientQuestion": null
+  }
+}

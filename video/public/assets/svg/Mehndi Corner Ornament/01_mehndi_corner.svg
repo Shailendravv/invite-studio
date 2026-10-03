@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <title>Mehndi corner ornament</title>
+  <g id="mehndi-corner" fill="none" stroke="#5A1818" stroke-linejoin="round" stroke-linecap="round">
+    <!-- Corner core hub (top-right corner at 400,0) -->
+    <g id="hub-rings">
+      <circle id="hub-core" cx="400" cy="0" r="22" fill="#5A1818" stroke="none"/>
+      <circle id="hub-ring-01" cx="400" cy="0" r="32" stroke-width="2"/>
+      <circle id="hub-ring-02" cx="400" cy="0" r="42" stroke-width="1.5" stroke-dasharray="3 3"/>
+    </g>
+    <!-- Scalloped rays fanning from the hub into the canvas -->
+    <g id="scallop-rays" stroke-width="2">
+      <path id="scallop-01" d="M 330,0 C 330,10 340,25 350,25 C 360,25 355,10 355,0" transform="rotate(-15 400 0)"/>
+      <path id="scallop-02" d="M 330,0 C 330,10 340,25 350,25 C 360,25 355,10 355,0" transform="rotate(-30 400 0)"/>
+      <path id="scallop-03" d="M 330,0 C 330,10 340,25 350,25 C 360,25 355,10 355,0" transform="rotate(-45 400 0)"/>
+      <path id="scallop-04" d="M 330,0 C 330,10 340,25 350,25 C 360,25 355,10 355,0" transform="rotate(-60 400 0)"/>
+      <path id="scallop-05" d="M 330,0 C 330,10 340,25 350,25 C 360,25 355,10 355,0" transform="rotate(-75 400 0)"/>
+    </g>
+    <!-- Main sweeping paisley wave -->
+    <g id="paisley-main">
+      <path id="paisley-main-outline" d="M 390,90 C 320,100 240,150 200,220 C 165,280 180,340 230,360 C 280,380 340,320 345,260 C 350,210 310,180 280,200 C 250,220 260,260 290,260 C 310,260 315,240 305,230" stroke-width="2.5"/>
+      <path id="paisley-main-inner" d="M 380,110 C 325,120 265,165 230,225 C 205,270 215,315 250,330 C 285,345 325,300 325,260 C 325,225 295,205 275,220" stroke-width="1.25" stroke-dasharray="2 2"/>
+    </g>
+    <!-- Dot and teardrop accents -->
+    <g id="dots" fill="#5A1818" stroke="none">
+      <circle id="dot-01" cx="160" cy="250" r="4"/>
+      <circle id="dot-02" cx="140" cy="290" r="3"/>
+      <circle id="dot-03" cx="130" cy="335" r="2"/>
+    </g>
+    <g id="teardrop-01" fill="#5A1818" stroke="none">
+      <path id="teardrop-01-shape" d="M 195,352 C 203,364 212,373 212,383 C 212,392 204,398 195,398 C 186,398 178,392 178,383 C 178,373 187,364 195,352 Z"/>
+    </g>
+  </g>
+</svg>

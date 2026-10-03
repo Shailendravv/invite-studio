@@ -1,0 +1,43 @@
+{
+  "name": "13-invented-venue-guard",
+  "description": "Mock-only: the model invents a venue; the guard must drop it",
+  "mockOnly": true,
+  "today": "2026-10-03",
+  "raw": "Rohit ka birthday hai 30 October ko shaam 7 baje, party ki jagah baad me bataenge",
+  "expect": {
+    "status": "needs_info",
+    "eventType": "birthday",
+    "missing": [
+      "venueName"
+    ]
+  },
+  "mockDraft": {
+    "eventType": "birthday",
+    "language": "en",
+    "languageStyle": "hinglish",
+    "personName": "Rohit",
+    "age": null,
+    "hostedBy": null,
+    "brideName": null,
+    "groomName": null,
+    "brideFamily": null,
+    "groomFamily": null,
+    "date": "2026-10-30",
+    "displayDate": "Friday, 30 October 2026",
+    "time": "7:00 PM",
+    "venueName": "Hotel Grand Celebration",
+    "venueAddress": null,
+    "rsvp": null,
+    "blessingLine": null,
+    "functions": [],
+    "palette": null,
+    "wording": {
+      "headline": "Birthday Party",
+      "invitation": "Come celebrate with cake, games and lots of fun!",
+      "closing": "See you there!"
+    },
+    "wordingHi": null,
+    "missingFields": [],
+    "clientQuestion": null
+  }
+}

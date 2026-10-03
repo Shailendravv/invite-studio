@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <g id="circular_rangoli" fill="none" stroke="#5A1818" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+    <!-- Concentric Architecture -->
+    <circle id="center_bindu" cx="200" cy="200" r="8" fill="#5A1818" stroke="none"/>
+    <circle id="ring_1" cx="200" cy="200" r="30"/>
+    <circle id="ring_2" cx="200" cy="200" r="65" stroke-dasharray="4 4"/>
+    <circle id="ring_3" cx="200" cy="200" r="110"/>
+    <circle id="ring_4" cx="200" cy="200" r="160" stroke-width="3"/>
+    <circle id="ring_5" cx="200" cy="200" r="175" stroke-width="1" stroke-dasharray="2 6"/>
+    <!-- 8-Directional Radial Base Geometry -->
+    <g id="radial_spokes">
+      <path d="M 200,90 L 200,310"/>
+      <path d="M 90,200 L 310,200"/>
+      <path d="M 122,122 L 278,278"/>
+      <path d="M 122,278 L 278,122"/>
+    </g>
+    <!-- Pointed Petal Loops: 4 cardinal + 4 diagonal (rotated 45deg) -->
+    <g id="petal_loops" fill="#5A1818" fill-opacity="0.1">
+      <g id="petals_cardinal">
+        <path d="M 200,40 C 165,70 165,95 200,110 C 235,95 235,70 200,40 Z"/>
+        <path d="M 360,200 C 330,165 305,165 290,200 C 305,235 330,235 360,200 Z"/>
+        <path d="M 200,360 C 165,330 165,305 200,290 C 235,305 235,330 200,360 Z"/>
+        <path d="M 40,200 C 70,165 95,165 110,200 C 95,235 70,235 40,200 Z"/>
+      </g>
+      <g id="petals_diagonal" transform="rotate(45 200 200)">
+        <path d="M 200,40 C 165,70 165,95 200,110 C 235,95 235,70 200,40 Z"/>
+        <path d="M 360,200 C 330,165 305,165 290,200 C 305,235 330,235 360,200 Z"/>
+        <path d="M 200,360 C 165,330 165,305 200,290 C 235,305 235,330 200,360 Z"/>
+        <path d="M 40,200 C 70,165 95,165 110,200 C 95,235 70,235 40,200 Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

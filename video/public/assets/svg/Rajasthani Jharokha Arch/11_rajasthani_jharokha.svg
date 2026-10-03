@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="100%" height="100%">
+  <g id="jharokha_arch" fill="none" stroke="#5A1818" stroke-linejoin="round" stroke-linecap="round">
+    <!-- Outer Symmetrical Step Pillar Border Frames -->
+    <rect x="50" y="140" width="300" height="320" stroke-width="2" fill="#5A1818" fill-opacity="0.03"/>
+    <rect x="70" y="160" width="260" height="300" stroke-width="1" stroke-dasharray="4 4"/>
+    <!-- Complex Royal 5-Cusp Pointed Mughal Mehrab Arch Curve -->
+    <path d="M 50,140 
+             C 50,100 90,110 110,90 
+             C 130,70 140,50 160,50 
+             C 175,50 185,30 200,15
+             C 215,30 225,50 240,50
+             C 260,50 270,70 290,90
+             C 310,110 350,100 350,140 Z" stroke-width="3" fill="#5A1818" fill-opacity="0.1"/>
+    <!-- Matching Inner Inline Contour Arch Layer -->
+    <path d="M 70,160 
+             C 70,125 105,130 120,115 
+             C 135,100 145,80 165,80 
+             C 180,80 190,60 200,45
+             C 210,60 220,80 235,80
+             C 255,80 265,100 280,115
+             C 295,130 330,125 330,160 Z" stroke-width="1.5"/>
+    <!-- Suspended Hanging Chandelier Centerpiece Drop Pendant from the inner arch peak -->
+    <g id="arch_pendant" fill="#5A1818" transform="translate(200, 45)">
+      <circle cx="0" cy="3" r="3" stroke="none"/>
+      <line x1="0" y1="6" x2="0" y2="28" stroke-width="1.5"/>
+      <path d="M -6,28 L 6,28 L 0,40 Z" stroke="none"/>
+    </g>
+    <!-- Base Decorative Foundation Trim Plinth Railing -->
+    <line x1="30" y1="460" x2="370" y2="460" stroke-width="4"/>
+    <line x1="20" y1="470" x2="380" y2="470" stroke-width="2"/>
+  </g>
+</svg>

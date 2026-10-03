@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 150 500" width="100%" height="100%" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <!-- Reusable layered marigold (genda) flower, centered on 0,0 -->
+    <g id="single_genda_flower">
+      <!-- Outer ring of petals -->
+      <g fill="#F28C0F" stroke="#B85A00" stroke-width="0.6">
+        <ellipse cx="0" cy="-14" rx="5" ry="8"/>
+        <ellipse cx="0" cy="-14" rx="5" ry="8" transform="rotate(30)"/>
+        <ellipse cx="0" cy="-14" rx="5" ry="8" transform="rotate(60)"/>
+        <ellipse cx="0" cy="-14" rx="5" ry="8" transform="rotate(90)"/>
+        <ellipse cx="0" cy="-14" rx="5" ry="8" transform="rotate(120)"/>
+        <ellipse cx="0" cy="-14" rx="5" ry="8" transform="rotate(150)"/>
+        <ellipse cx="0" cy="-14" rx="5" ry="8" transform="rotate(180)"/>
+        <ellipse cx="0" cy="-14" rx="5" ry="8" transform="rotate(210)"/>
+        <ellipse cx="0" cy="-14" rx="5" ry="8" transform="rotate(240)"/>
+        <ellipse cx="0" cy="-14" rx="5" ry="8" transform="rotate(270)"/>
+        <ellipse cx="0" cy="-14" rx="5" ry="8" transform="rotate(300)"/>
+        <ellipse cx="0" cy="-14" rx="5" ry="8" transform="rotate(330)"/>
+      </g>
+      <!-- Inner ring of petals, offset by 15 degrees -->
+      <g fill="#FFB52E" stroke="#D97706" stroke-width="0.5">
+        <ellipse cx="0" cy="-9" rx="3.6" ry="6" transform="rotate(15)"/>
+        <ellipse cx="0" cy="-9" rx="3.6" ry="6" transform="rotate(60)"/>
+        <ellipse cx="0" cy="-9" rx="3.6" ry="6" transform="rotate(105)"/>
+        <ellipse cx="0" cy="-9" rx="3.6" ry="6" transform="rotate(150)"/>
+        <ellipse cx="0" cy="-9" rx="3.6" ry="6" transform="rotate(195)"/>
+        <ellipse cx="0" cy="-9" rx="3.6" ry="6" transform="rotate(240)"/>
+        <ellipse cx="0" cy="-9" rx="3.6" ry="6" transform="rotate(285)"/>
+        <ellipse cx="0" cy="-9" rx="3.6" ry="6" transform="rotate(330)"/>
+      </g>
+      <!-- Center -->
+      <circle cx="0" cy="0" r="5" fill="#FFD54A" stroke="#D97706" stroke-width="0.5"/>
+      <circle cx="0" cy="0" r="2" fill="#B85A00"/>
+    </g>
+
+    <!-- Mango leaf, base at 0,0 pointing down (+y) -->
+    <g id="mango_leaf">
+      <path d="M0,0 C-15,15 -10,35 0,55 C10,35 15,15 0,0 Z" fill="#3E8E41" stroke="#1F5A24" stroke-width="1.2"/>
+      <path d="M0,2 L0,50" stroke="#1F5A24" stroke-width="0.8" fill="none"/>
+    </g>
+  </defs>
+
+  <g id="marigold_garland_vertical">
+    <!-- Main center hanging string -->
+    <line x1="75" y1="0" x2="75" y2="460" stroke="#5A1818" stroke-width="2" stroke-dasharray="5 5"/>
+
+    <!-- Upper flower cluster -->
+    <use href="#single_genda_flower" xlink:href="#single_genda_flower" transform="translate(75 40)"/>
+    <use href="#single_genda_flower" xlink:href="#single_genda_flower" transform="translate(75 95)"/>
+    <use href="#single_genda_flower" xlink:href="#single_genda_flower" transform="translate(75 150)"/>
+
+    <!-- Crossed mango leaves (aasoopalav) -->
+    <use href="#mango_leaf" xlink:href="#mango_leaf" transform="translate(75 175) rotate(45)"/>
+    <use href="#mango_leaf" xlink:href="#mango_leaf" transform="translate(75 175) rotate(-45)"/>
+
+    <!-- Lower flower cluster -->
+    <use href="#single_genda_flower" xlink:href="#single_genda_flower" transform="translate(75 225)"/>
+    <use href="#single_genda_flower" xlink:href="#single_genda_flower" transform="translate(75 280)"/>
+    <use href="#single_genda_flower" xlink:href="#single_genda_flower" transform="translate(75 335)"/>
+
+    <!-- Bottom pendant -->
+    <use href="#mango_leaf" xlink:href="#mango_leaf" transform="translate(75 355)"/>
+    <circle cx="75" cy="425" r="8" fill="#F28C0F" stroke="#B85A00" stroke-width="0.6"/>
+    <circle cx="75" cy="445" r="5" fill="#FFB52E" stroke="#D97706" stroke-width="0.5"/>
+    <circle cx="75" cy="460" r="3" fill="#5A1818"/>
+  </g>
+</svg>

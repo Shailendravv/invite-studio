@@ -1,0 +1,34 @@
+node_modules/
+.next/
+dist/
+out/
+build/
+coverage/
+*.tsbuildinfo
+
+# local data — never commit client data
+data/*
+!data/.gitkeep
+storage/*
+!storage/.gitkeep
+.render-cache/
+.remotion-bundle/
+logs/
+
+.env
+.env.local
+.env.*.local
+!.env.example
+
+.DS_Store
+Thumbs.db
+
+# local tool reports
+.gstack/
+
+# AI assistant / local tooling files (not part of the app)
+.claude/
+CLAUDE.md
+DECISIONS.md
+plan.md
+graphify-out/

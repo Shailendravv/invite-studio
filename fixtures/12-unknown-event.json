@@ -1,0 +1,44 @@
+{
+  "name": "12-unknown-event",
+  "description": "No names and no occasion",
+  "today": "2026-10-03",
+  "raw": "Hi, need a video for 25 Dec, 6 PM at Hyatt Regency",
+  "expect": {
+    "status": "needs_info",
+    "eventType": null,
+    "missing": [
+      "eventType"
+    ]
+  },
+  "mockDraft": {
+    "eventType": null,
+    "language": "en",
+    "languageStyle": "english",
+    "personName": null,
+    "age": null,
+    "hostedBy": null,
+    "brideName": null,
+    "groomName": null,
+    "brideFamily": null,
+    "groomFamily": null,
+    "date": "2026-12-25",
+    "displayDate": "Friday, 25 December 2026",
+    "time": "6:00 PM",
+    "venueName": "Hyatt Regency",
+    "venueAddress": null,
+    "rsvp": null,
+    "blessingLine": null,
+    "functions": [],
+    "palette": null,
+    "wording": {
+      "headline": "",
+      "invitation": "",
+      "closing": ""
+    },
+    "wordingHi": null,
+    "missingFields": [
+      "eventType"
+    ],
+    "clientQuestion": null
+  }
+}

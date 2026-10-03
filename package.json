@@ -1,0 +1,54 @@
+{
+  "name": "invite-studio",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Self-hosted agentic invitation video generator",
+  "engines": {
+    "node": ">=20.9.0"
+  },
+  "workspaces": [
+    "packages/shared",
+    "apps/web",
+    "apps/worker",
+    "video"
+  ],
+  "scripts": {
+    "build": "npm run typecheck && npm run build -w @invite/web",
+    "typecheck": "npm run typecheck --workspaces --if-present",
+    "lint": "eslint .",
+    "test": "vitest run",
+    "test:live": "cross-env LIVE_LLM=1 vitest run packages/shared/test/parse.live.test.ts",
+    "db:generate": "drizzle-kit generate",
+    "dev:web": "npm run dev -w @invite/web",
+    "dev:worker": "tsx watch apps/worker/src/index.ts",
+    "start:web": "npm run start -w @invite/web",
+    "start:worker": "tsx apps/worker/src/index.ts",
+    "studio": "npm run studio -w @invite/video",
+    "stills": "tsx scripts/render-stills.ts",
+    "svg:build": "tsx scripts/build-svg-docs.ts",
+    "frames": "tsx scripts/render-frames.ts",
+    "e2e": "tsx scripts/e2e.ts",
+    "tunnel": "tsx scripts/tunnel.ts",
+    "pm2:start": "pm2 start ecosystem.config.cjs",
+    "pm2:stop": "pm2 stop ecosystem.config.cjs",
+    "pm2:logs": "pm2 logs",
+    "hash-password": "tsx apps/web/scripts/hash-password.ts"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.0",
+    "@ngrok/ngrok": "^1.7.0",
+    "@types/node": "^22.10.0",
+    "cross-env": "^10.0.0",
+    "drizzle-kit": "^0.31.11",
+    "eslint": "^9.39.0",
+    "pm2": "^7.0.4",
+    "tsx": "^4.23.15",
+    "typescript": "^5.9.0",
+    "typescript-eslint": "^8.46.0",
+    "vitest": "^5.0.3"
+  },
+  "overrides": {
+    "better-sqlite3": "12.11.1"
+  }
+}

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" width="100%" height="100%">
+  <g id="sangeet_dhol" fill="none" stroke="#5A1818" stroke-linejoin="round" stroke-linecap="round">
+    <!-- Main Barrel Body of the Dhol -->
+    <path id="dhol_barrel" d="M 80,50 C 140,20 260,20 320,50 L 320,200 C 260,230 140,230 80,200 Z" stroke-width="3" fill="#5A1818" fill-opacity="0.05"/>
+    <!-- Left and Right Leather Drumheads (Tillis) -->
+    <ellipse cx="80" cy="125" rx="15" ry="75" stroke-width="2.5" fill="#5A1818" fill-opacity="0.2"/>
+    <ellipse cx="320" cy="125" rx="15" ry="75" stroke-width="2.5" fill="#5A1818" fill-opacity="0.2"/>
+    <!-- Traditional Diamond/Zig-Zag Woven Tension Ropes -->
+    <g id="tension_ropes" stroke-width="1.5">
+      <path d="M 95,54 L 200,35 L 305,54 L 200,215 Z"/>
+      <path d="M 95,196 L 200,215 L 305,196 L 200,35 Z"/>
+      <line x1="95" y1="125" x2="305" y2="125" stroke-dasharray="4 4"/>
+    </g>
+    <!-- Central Ornamental Ring & Intersecting Hanging Sash/Strap -->
+    <rect x="185" y="30" width="30" height="190" rx="5" stroke-width="1.5" fill="#5A1818" fill-opacity="0.1"/>
+    <path d="M 200,220 Q 200,245 170,245" stroke-width="2"/>
+    <circle cx="170" cy="245" r="4" fill="#5A1818"/>
+  </g>
+</svg>

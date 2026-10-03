@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 400" width="100%" height="100%">
+  <g id="purna_kalash" fill="none" stroke="#5A1818" stroke-linejoin="round" stroke-linecap="round">
+    <!-- Base Foundation ring -->
+    <path d="M 110,360 L 190,360 L 180,340 L 120,340 Z" stroke-width="2"/>
+    <!-- Pot/Lota Main Spherical Vessel Body -->
+    <path d="M 120,340 C 70,320 50,260 50,220 C 50,160 100,150 115,150 L 185,150 C 200,150 250,160 250,220 C 250,260 230,320 180,340 Z" stroke-width="3" fill="#5A1818" fill-opacity="0.05"/>
+    <!-- Traditional Sacred Thread (Mauli) around Pot neck -->
+    <rect x="110" y="135" width="80" height="15" rx="4" stroke-width="2" fill="#5A1818" fill-opacity="0.2"/>
+    <line x1="110" y1="142.5" x2="190" y2="142.5" stroke-width="1"/>
+    <!-- Swastika emblem engraved on Pot center (clockwise arms) -->
+    <path d="M 130,220 L 170,220 M 150,200 L 150,240 M 150,200 L 170,200 M 170,220 L 170,240 M 150,240 L 130,240 M 130,220 L 130,200" stroke-width="2.5"/>
+    <!-- Flanking Coconut Mango Leaves (Amra Pallav) Layout -->
+    <g id="mango_leaves_cluster" stroke-width="1.5" fill="#5A1818" fill-opacity="0.15">
+      <path d="M 115,135 C 90,110 70,70 70,30 C 95,50 115,90 125,135 Z"/>
+      <path d="M 185,135 C 210,110 230,70 230,30 C 205,50 185,90 175,135 Z"/>
+      <path d="M 130,135 C 120,95 110,60 115,15 C 135,40 140,85 145,135 Z"/>
+      <path d="M 170,135 C 180,95 190,60 185,15 C 165,40 160,85 155,135 Z"/>
+    </g>
+    <!-- Divine Ceremonial Shaved Coconut (Sriphal) sitting high on top -->
+    <path id="coconut_top" d="M 125,135 C 125,100 135,65 150,45 C 165,65 175,100 175,135 Z" stroke-width="2.5" fill="#5A1818"/>
+  </g>
+</svg>

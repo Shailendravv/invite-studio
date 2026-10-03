@@ -1,0 +1,44 @@
+{
+  "name": "04-missing-date",
+  "description": "Wedding without a date",
+  "today": "2026-10-03",
+  "raw": "Hello, need wedding video invite for Vikram and Sneha. Venue is The Leela Ambience Gurugram, time 8 pm. Will confirm date soon",
+  "expect": {
+    "status": "needs_info",
+    "eventType": "wedding",
+    "missing": [
+      "date"
+    ]
+  },
+  "mockDraft": {
+    "eventType": "wedding",
+    "language": "en",
+    "languageStyle": "english",
+    "personName": null,
+    "age": null,
+    "hostedBy": null,
+    "brideName": "Sneha",
+    "groomName": "Vikram",
+    "brideFamily": null,
+    "groomFamily": null,
+    "date": null,
+    "displayDate": null,
+    "time": "8:00 PM",
+    "venueName": "The Leela Ambience",
+    "venueAddress": "Gurugram",
+    "rsvp": null,
+    "blessingLine": null,
+    "functions": [],
+    "palette": null,
+    "wording": {
+      "headline": "Wedding Invitation",
+      "invitation": "With joy in our hearts, we request the pleasure of your company at the wedding.",
+      "closing": "Do join us and bless the couple."
+    },
+    "wordingHi": null,
+    "missingFields": [
+      "date"
+    ],
+    "clientQuestion": "Hi! 😊 Thanks for the details. Could you please share the wedding date so we can make the video?"
+  }
+}

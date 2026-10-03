@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 350 400" width="100%" height="100%">
+  <g id="royal_chhatri" fill="none" stroke="#5A1818" stroke-linejoin="round" stroke-linecap="round">
+    <!-- Main Center Supporting Brass Pole Pillar -->
+    <line x1="175" y1="50" x2="175" y2="400" stroke-width="3.5"/>
+    <!-- Expansive Domed Umbrella Canopy Top Shield -->
+    <path id="canopy_dome" d="M 50,160 C 50,70 110,60 175,60 C 240,60 300,70 300,160 Z" stroke-width="3" fill="#5A1818" fill-opacity="0.05"/>
+    <path d="M 85,160 C 85,90 130,80 175,80 C 220,80 265,90 265,160" stroke-width="1.25" stroke-dasharray="4 4"/>
+    <!-- Decorative Scalloped Lower valance Trim Strip -->
+    <path id="scallop_valance" d="M 50,160 Q 62.5,180 75,160 Q 87.5,180 100,160 Q 112.5,180 125,160 Q 137.5,180 150,160 Q 162.5,180 175,160 Q 187.5,180 200,160 Q 212.5,180 225,160 Q 237.5,180 250,160 Q 262.5,180 275,160 Q 287.5,180 300,160" stroke-width="2" fill="#5A1818" fill-opacity="0.2"/>
+    <!-- Ornate Finial Spire Crown Top Peak Tip -->
+    <path d="M 165,60 L 175,20 L 185,60 Z" stroke-width="2" fill="#5A1818"/>
+    <circle cx="175" cy="14" r="4" fill="#5A1818" stroke="none"/>
+    <!-- Hanging Border Pearl Tassel Pendants -->
+    <g fill="#5A1818" stroke="none">
+      <circle cx="75" cy="190" r="3"/>  <circle cx="125" cy="190" r="3"/>
+      <circle cx="175" cy="190" r="3"/> <circle cx="225" cy="190" r="3"/>
+      <circle cx="275" cy="190" r="3"/>
+    </g>
+  </g>
+</svg>

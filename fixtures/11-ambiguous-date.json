@@ -1,0 +1,44 @@
+{
+  "name": "11-ambiguous-date",
+  "description": "Two possible event dates; must ask instead of guessing",
+  "today": "2026-10-03",
+  "raw": "Engagement of Dev and Tara, either 14 or 15 November, venue Taj Lands End Mumbai, 7 PM. Will tell final",
+  "expect": {
+    "status": "needs_info",
+    "eventType": "engagement",
+    "missing": [
+      "date"
+    ]
+  },
+  "mockDraft": {
+    "eventType": "engagement",
+    "language": "en",
+    "languageStyle": "english",
+    "personName": null,
+    "age": null,
+    "hostedBy": null,
+    "brideName": "Tara",
+    "groomName": "Dev",
+    "brideFamily": null,
+    "groomFamily": null,
+    "date": null,
+    "displayDate": null,
+    "time": "7:00 PM",
+    "venueName": "Taj Lands End",
+    "venueAddress": "Mumbai",
+    "rsvp": null,
+    "blessingLine": null,
+    "functions": [],
+    "palette": null,
+    "wording": {
+      "headline": "Engagement Ceremony",
+      "invitation": "Together with our families, we invite you to bless the couple as they begin a new journey.",
+      "closing": "Your presence is our blessing."
+    },
+    "wordingHi": null,
+    "missingFields": [
+      "date"
+    ],
+    "clientQuestion": "Hi! 😊 Could you confirm the final engagement date — 14 or 15 November?"
+  }
+}

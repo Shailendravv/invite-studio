@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 400" width="100%" height="100%">
+  <g id="peacock_feather" fill="none" stroke="#5A1818" stroke-linejoin="round" stroke-linecap="round">
+    <!-- Main Center Longitudinal Stem Core (Quill/Shaft) -->
+    <path id="feather_quill" d="M 100,380 C 100,300 100,160 100,30" stroke-width="2.5"/>
+    <!-- Majestic Rounded Crown Ovals (The Feather Eye/Chandrika) -->
+    <g id="feather_eye" fill="#5A1818">
+      <ellipse cx="100" cy="110" rx="65" ry="80" stroke-width="2" fill-opacity="0.05"/>
+      <ellipse cx="100" cy="120" rx="45" ry="55" stroke-width="1.5" fill-opacity="0.15"/>
+      <!-- Heart/Kidney Shaped Deep Center Indentation Core Nucleus -->
+      <path d="M 100,150 C 75,150 65,120 100,95 C 135,120 125,150 100,150 Z" stroke-width="1" fill-opacity="0.4"/>
+      <circle cx="100" cy="115" r="8"/>
+    </g>
+    <!-- Soft External Branching Thread Barbs (Hair Filaments) -->
+    <g id="feather_barbs" stroke-width="1" opacity="0.75">
+      <path d="M 100,190 C 50,195 30,150 20,110"/>
+      <path d="M 100,230 C 45,240 25,200 15,150"/>
+      <path d="M 100,270 C 40,285 30,240 20,190"/>
+      <path d="M 100,310 C 50,330 40,290 35,240"/>
+      
+      <path d="M 100,190 C 150,195 170,150 180,110"/>
+      <path d="M 100,230 C 155,240 175,200 185,150"/>
+      <path d="M 100,270 C 160,285 170,240 180,190"/>
+      <path d="M 100,310 C 150,330 160,290 165,240"/>
+    </g>
+  </g>
+</svg>

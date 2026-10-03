@@ -1,0 +1,80 @@
+{
+  "name": "06-wedding-functions",
+  "description": "Wedding with Haldi, Mehendi, Sangeet and Pheras",
+  "today": "2026-10-03",
+  "raw": "Wedding of Arjun & Kavya 💍\nHaldi – 24 Jan 2027, 10 AM at home (Kavya's residence, Civil Lines)\nMehendi – 24 Jan 2027, 5 PM, same place\nSangeet – 25 Jan 2027, 7 PM at Royal Orchid Banquet\nWedding (Pheras) – 26 Jan 2027, 8 PM at Royal Orchid Banquet, Lucknow",
+  "expect": {
+    "status": "ready",
+    "eventType": "wedding",
+    "functionsCount": 4,
+    "fields": {
+      "groomName": "Arjun",
+      "brideName": "Kavya",
+      "date": "2027-01-26",
+      "time": "8:00 PM",
+      "venueName": "Royal Orchid"
+    }
+  },
+  "mockDraft": {
+    "eventType": "wedding",
+    "language": "en",
+    "languageStyle": "english",
+    "personName": null,
+    "age": null,
+    "hostedBy": null,
+    "brideName": "Kavya",
+    "groomName": "Arjun",
+    "brideFamily": null,
+    "groomFamily": null,
+    "date": "2027-01-26",
+    "displayDate": "Tuesday, 26 January 2027",
+    "time": "8:00 PM",
+    "venueName": "Royal Orchid Banquet",
+    "venueAddress": "Lucknow",
+    "rsvp": null,
+    "blessingLine": null,
+    "functions": [
+      {
+        "name": "Haldi",
+        "date": "2027-01-24",
+        "displayDate": "Sunday, 24 January 2027",
+        "time": "10:00 AM",
+        "venueName": "Kavya's Residence",
+        "venueAddress": "Civil Lines"
+      },
+      {
+        "name": "Mehendi",
+        "date": "2027-01-24",
+        "displayDate": "Sunday, 24 January 2027",
+        "time": "5:00 PM",
+        "venueName": "Kavya's Residence",
+        "venueAddress": "Civil Lines"
+      },
+      {
+        "name": "Sangeet",
+        "date": "2027-01-25",
+        "displayDate": "Monday, 25 January 2027",
+        "time": "7:00 PM",
+        "venueName": "Royal Orchid Banquet",
+        "venueAddress": null
+      },
+      {
+        "name": "Pheras",
+        "date": "2027-01-26",
+        "displayDate": "Tuesday, 26 January 2027",
+        "time": "8:00 PM",
+        "venueName": "Royal Orchid Banquet",
+        "venueAddress": "Lucknow"
+      }
+    ],
+    "palette": null,
+    "wording": {
+      "headline": "Wedding Invitation",
+      "invitation": "With joy in our hearts, we request the pleasure of your company at the wedding.",
+      "closing": "Do join us and bless the couple."
+    },
+    "wordingHi": null,
+    "missingFields": [],
+    "clientQuestion": null
+  }
+}

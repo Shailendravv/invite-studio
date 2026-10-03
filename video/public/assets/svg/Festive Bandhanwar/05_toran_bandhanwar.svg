@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 220" width="100%" height="100%">
+  <defs>
+    <!-- Hanging Pendant Assembly -->
+    <g id="toran_drop" fill="none" stroke="#5A1818" stroke-width="1.5">
+      <line x1="0" y1="0" x2="0" y2="30" stroke-width="2"/>
+      <circle cx="0" cy="35" r="10" fill="#5A1818" fill-opacity="0.2"/>
+      <path d="M-15,65 C-15,45 0,45 0,45 C0,45 15,45 15,65 C15,90 0,115 0,115 C0,115 -15,90 -15,65 Z" fill="#5A1818"/>
+      <circle cx="0" cy="125" r="3" fill="#5A1818" stroke="none"/>
+    </g>
+  </defs>
+  <!-- Main Structural Horizontal Rope -->
+  <g id="toran_assembly">
+    <line id="main_rope" x1="0" y1="20" x2="800" y2="20" stroke="#5A1818" stroke-width="4"/>
+    <path id="rope_scallop_accent" d="M 0,20 Q 100,50 200,20 Q 300,50 400,20 Q 500,50 600,20 Q 700,50 800,20" fill="none" stroke="#5A1818" stroke-width="1.5" stroke-dasharray="4 4"/>
+    <!-- Repeating Periodic Traditional Drops -->
+    <use xlink:href="#toran_drop" x="100" y="20"/>
+    <use xlink:href="#toran_drop" x="200" y="20"/>
+    <use xlink:href="#toran_drop" x="300" y="20"/>
+    <use xlink:href="#toran_drop" x="400" y="20"/>
+    <use xlink:href="#toran_drop" x="500" y="20"/>
+    <use xlink:href="#toran_drop" x="600" y="20"/>
+    <use xlink:href="#toran_drop" x="700" y="20"/>
+    <!-- Decorative Marigold Nodes along top edge -->
+    <g fill="#5A1818" stroke="none">
+      <circle cx="100" cy="20" r="7"/> <circle cx="200" cy="20" r="7"/>
+      <circle cx="300" cy="20" r="7"/> <circle cx="400" cy="20" r="7"/>
+      <circle cx="500" cy="20" r="7"/> <circle cx="600" cy="20" r="7"/>
+      <circle cx="700" cy="20" r="7"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 400" width="300" height="400">
+  <title>Ambi paisley</title>
+  <g id="ambi-paisley" fill="none" stroke="#5A1818" stroke-linejoin="round" stroke-linecap="round">
+    <!-- Closed outer body and inner concentric frame -->
+    <g id="shell">
+      <path id="shell-outer" d="M 150,370 C 70,370 30,315 30,245 C 30,170 85,120 135,80 C 168,54 205,32 238,38 C 200,90 270,150 270,245 C 270,320 220,370 150,370 Z" stroke-width="3"/>
+      <path id="shell-inner" d="M 150,348 C 84,348 52,305 52,246 C 52,184 98,142 142,106 C 170,84 196,70 214,72 C 196,108 252,150 252,246 C 252,312 208,348 150,348 Z" stroke-width="1.5"/>
+      <path id="shell-curl" d="M 238,38 C 252,36 262,46 258,57 C 254,67 241,67 239,58 C 238,52 244,49 248,52" stroke-width="2.5"/>
+    </g>
+    <!-- Pearl band between outer and inner frame (round dots drawn as a dashed stroke) -->
+    <g id="pearls">
+      <path id="pearls-left" d="M 150,359 C 77,359 41,310 41,245.5 C 41,177 91.5,131 138.5,93" stroke-width="4" stroke-dasharray="0 10"/>
+      <path id="pearls-right" d="M 150,359 C 214,359 261,316 261,245.5" stroke-width="4" stroke-dasharray="0 10"/>
+    </g>
+    <!-- Central lotus -->
+    <g id="lotus" stroke-width="2">
+      <path id="lotus-petal-center" d="M 150,290 C 135,265 135,225 150,195 C 165,225 165,265 150,290 Z" fill="#5A1818"/>
+      <path id="lotus-petal-left-inner" d="M 150,290 C 135,265 135,225 150,195 C 165,225 165,265 150,290 Z" transform="rotate(-28 150 290)"/>
+      <path id="lotus-petal-right-inner" d="M 150,290 C 135,265 135,225 150,195 C 165,225 165,265 150,290 Z" transform="rotate(28 150 290)"/>
+      <path id="lotus-petal-left-outer" d="M 150,290 C 137,270 137,240 150,220 C 163,240 163,270 150,290 Z" transform="rotate(-58 150 290)" fill="#5A1818"/>
+      <path id="lotus-petal-right-outer" d="M 150,290 C 137,270 137,240 150,220 C 163,240 163,270 150,290 Z" transform="rotate(58 150 290)" fill="#5A1818"/>
+    </g>
+    <g id="lotus-dots" fill="#5A1818" stroke="none">
+      <circle id="lotus-dot-center" cx="150" cy="312" r="4"/>
+      <circle id="lotus-dot-left" cx="132" cy="318" r="2.5"/>
+      <circle id="lotus-dot-right" cx="168" cy="318" r="2.5"/>
+    </g>
+  </g>
+</svg>

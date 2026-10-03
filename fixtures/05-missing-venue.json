@@ -1,0 +1,44 @@
+{
+  "name": "05-missing-venue",
+  "description": "Hinglish engagement without a venue",
+  "today": "2026-10-03",
+  "raw": "Neha ki sagai hai Rohan ke saath, 20 November ko shaam 5 baje. Venue abhi final nahi hua",
+  "expect": {
+    "status": "needs_info",
+    "eventType": "engagement",
+    "missing": [
+      "venueName"
+    ]
+  },
+  "mockDraft": {
+    "eventType": "engagement",
+    "language": "en",
+    "languageStyle": "hinglish",
+    "personName": null,
+    "age": null,
+    "hostedBy": null,
+    "brideName": "Neha",
+    "groomName": "Rohan",
+    "brideFamily": null,
+    "groomFamily": null,
+    "date": "2026-11-20",
+    "displayDate": "Friday, 20 November 2026",
+    "time": "5:00 PM",
+    "venueName": null,
+    "venueAddress": null,
+    "rsvp": null,
+    "blessingLine": null,
+    "functions": [],
+    "palette": null,
+    "wording": {
+      "headline": "Engagement Ceremony",
+      "invitation": "Together with our families, we invite you to bless the couple as they begin a new journey.",
+      "closing": "Your presence is our blessing."
+    },
+    "wordingHi": null,
+    "missingFields": [
+      "venueName"
+    ],
+    "clientQuestion": "Namaste! 🙏 Venue final hote hi uska naam aur address bata dijiye, phir video bana denge."
+  }
+}

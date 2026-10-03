@@ -1,0 +1,33 @@
+{
+  "name": "@invite/shared",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    "./schema": "./src/schema.ts",
+    "./templates": "./src/templates.ts",
+    "./format": "./src/format.ts",
+    "./slug": "./src/slug.ts",
+    "./env": "./src/env.ts",
+    "./ids": "./src/ids.ts",
+    "./db": "./src/db/index.ts",
+    "./db/schema": "./src/db/schema.ts",
+    "./storage": "./src/storage/index.ts",
+    "./security": "./src/security/index.ts",
+    "./llm": "./src/llm/index.ts",
+    "./agent": "./src/agent/index.ts",
+    "./orders": "./src/orders.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.131.0",
+    "better-sqlite3": "^12.11.1",
+    "drizzle-orm": "^0.45.3",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.13"
+  }
+}

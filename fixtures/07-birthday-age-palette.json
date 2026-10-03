@@ -1,0 +1,52 @@
+{
+  "name": "07-birthday-age-palette",
+  "description": "60th birthday with host and a colour request",
+  "today": "2026-10-03",
+  "raw": "Please make a birthday invitation for my mother Sunita Verma's 60th birthday. Sunday 22 November 2026, 12:30 PM lunch at Barbeque Nation, Connaught Place. Hosted by Rakesh & family. Theme gold please",
+  "expect": {
+    "status": "ready",
+    "eventType": "birthday",
+    "fields": {
+      "personName": "Sunita Verma",
+      "age": 60,
+      "date": "2026-11-22",
+      "time": "12:30 PM",
+      "venueName": "Barbeque Nation"
+    }
+  },
+  "mockDraft": {
+    "eventType": "birthday",
+    "language": "en",
+    "languageStyle": "english",
+    "personName": "Sunita Verma",
+    "age": 60,
+    "hostedBy": "Rakesh & family",
+    "brideName": null,
+    "groomName": null,
+    "brideFamily": null,
+    "groomFamily": null,
+    "date": "2026-11-22",
+    "displayDate": "Sunday, 22 November 2026",
+    "time": "12:30 PM",
+    "venueName": "Barbeque Nation",
+    "venueAddress": "Connaught Place",
+    "rsvp": null,
+    "blessingLine": null,
+    "functions": [],
+    "palette": {
+      "primary": "#d4af37",
+      "secondary": "#b8860b",
+      "accent": "#f5e6c4",
+      "background": "#1a1a1a",
+      "text": "#fdf6e3"
+    },
+    "wording": {
+      "headline": "60th Birthday Celebration",
+      "invitation": "Join us for a special lunch as we celebrate six wonderful decades.",
+      "closing": "Your presence will make the day golden."
+    },
+    "wordingHi": null,
+    "missingFields": [],
+    "clientQuestion": null
+  }
+}

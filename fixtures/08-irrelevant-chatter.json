@@ -1,0 +1,46 @@
+{
+  "name": "08-irrelevant-chatter",
+  "description": "Forwarded chat with unrelated lines around the details",
+  "today": "2026-10-03",
+  "raw": "Good morning 🌞🙏\n[Forwarded] Aaj ka vichar: khush raho, muskurate raho.\nKal mandir gaye the, bahut bheed thi.\nHaan toh invitation ke liye: Ishaan & Riya engagement, 8 Nov 2026, 7:30 PM, Clarks Amer Jaipur.\nAur haan, mummy keh rahi thi sweets bhi order karne hain 😂",
+  "expect": {
+    "status": "ready",
+    "eventType": "engagement",
+    "fields": {
+      "groomName": "Ishaan",
+      "brideName": "Riya",
+      "date": "2026-11-08",
+      "time": "7:30 PM",
+      "venueName": "Clarks Amer"
+    }
+  },
+  "mockDraft": {
+    "eventType": "engagement",
+    "language": "en",
+    "languageStyle": "hinglish",
+    "personName": null,
+    "age": null,
+    "hostedBy": null,
+    "brideName": "Riya",
+    "groomName": "Ishaan",
+    "brideFamily": null,
+    "groomFamily": null,
+    "date": "2026-11-08",
+    "displayDate": "Sunday, 8 November 2026",
+    "time": "7:30 PM",
+    "venueName": "Clarks Amer",
+    "venueAddress": "Jaipur",
+    "rsvp": null,
+    "blessingLine": null,
+    "functions": [],
+    "palette": null,
+    "wording": {
+      "headline": "Engagement Ceremony",
+      "invitation": "Together with our families, we invite you to bless the couple as they begin a new journey.",
+      "closing": "Your presence is our blessing."
+    },
+    "wordingHi": null,
+    "missingFields": [],
+    "clientQuestion": null
+  }
+}

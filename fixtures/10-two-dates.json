@@ -1,0 +1,46 @@
+{
+  "name": "10-two-dates",
+  "description": "Delivery deadline plus event date; the event date must win",
+  "today": "2026-10-03",
+  "raw": "Please send the video by 10th Oct. It's for my brother Karan's wedding with Anjali on 28 Nov 2026, 7 PM, Hotel Marriott, Indore.",
+  "expect": {
+    "status": "ready",
+    "eventType": "wedding",
+    "fields": {
+      "groomName": "Karan",
+      "brideName": "Anjali",
+      "date": "2026-11-28",
+      "time": "7:00 PM",
+      "venueName": "Marriott"
+    }
+  },
+  "mockDraft": {
+    "eventType": "wedding",
+    "language": "en",
+    "languageStyle": "english",
+    "personName": null,
+    "age": null,
+    "hostedBy": null,
+    "brideName": "Anjali",
+    "groomName": "Karan",
+    "brideFamily": null,
+    "groomFamily": null,
+    "date": "2026-11-28",
+    "displayDate": "Saturday, 28 November 2026",
+    "time": "7:00 PM",
+    "venueName": "Hotel Marriott",
+    "venueAddress": "Indore",
+    "rsvp": null,
+    "blessingLine": null,
+    "functions": [],
+    "palette": null,
+    "wording": {
+      "headline": "Wedding Invitation",
+      "invitation": "With joy in our hearts, we request the pleasure of your company at the wedding.",
+      "closing": "Do join us and bless the couple."
+    },
+    "wordingHi": null,
+    "missingFields": [],
+    "clientQuestion": null
+  }
+}
