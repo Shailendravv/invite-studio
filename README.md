@@ -140,7 +140,7 @@ Copy both to an external drive or cloud folder regularly (stop pm2 first, or cop
 
 Haldi and Mehndi are ceremony templates under the **wedding** event type (there is no separate event type). They are never auto-picked for an ordinary wedding. The worker picks them when the invitation is for one ceremony only: the headline says Haldi or Mehndi ("Haldi Ceremony", "मेहंदी की रस्म"), or the headline does not say "wedding" and every listed function is that ceremony. You can always choose one by hand in the template picker on the order page.
 
-`wed-royal` uses the jharokha as its frame, with a large Ganesha at the apex of the arch on every scene, mandap pillars along the sides, starburst ornaments, a small elephant and chhatri in the top corners and a kalash on the details scene. If a wedding lists a **Baraat** function, `wed-royal` also gets a Baraat scene (baarat horse, with a dhol and shehnai). The swastika mandala SVG is kept in `video/public/assets/svg` but is not used in any default template; the swastika engraved on the kalash is hidden. See "SVG placements" in [`DECISIONS.md`](DECISIONS.md).
+`wed-royal` uses the jharokha as its frame, with a large Ganesha at the apex of the arch on every scene, mandap pillars along the sides, starburst ornaments, a small elephant and chhatri in the top corners and a kalash on the details scene. If a wedding lists a **Baraat** function, `wed-royal` also gets a Baraat scene (baarat horse, with a dhol and shehnai). The swastika mandala SVG is kept in `video/public/assets/svg` but is not used in any default template; the swastika engraved on the kalash is hidden. See "`wed-royal` layout" in [`docs/features/video-rendering.md`](docs/features/video-rendering.md#wed-royal-layout).
 
 The new templates are built around the SVG files in `video/public/assets/svg` (marigold garland, toran, mehndi corner, paisley, mandala and floral borders, haldi bowl, diya, jhummar, rangoli, lotus, peacock feather), recoloured to each template's palette and animated in code. Other artwork is original and drawn in code; fonts are Google Fonts. To add a template see [`video/README.md`](video/README.md). To review every scene of every template as images: `npm run stills` (writes contact sheets to `.render-cache/stills/`).
 
@@ -170,4 +170,4 @@ Videos are rendered with [Remotion](https://www.remotion.dev). Remotion is free 
 | Public URL doesn't open | `npx pm2 logs tunnel`; check `NGROK_AUTHTOKEN` / `NGROK_DOMAIN`, and that the computer is awake |
 | "Too many attempts" at login | Wait 15 minutes (brute-force protection) |
 
-Design decisions and their reasons: [`DECISIONS.md`](DECISIONS.md).
+Project documentation (architecture, features, API, decisions and their reasons): [`docs/`](docs/README.md). Rules for AI agents working on the code: [`AGENTS.md`](AGENTS.md).
